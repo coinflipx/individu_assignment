@@ -1,0 +1,108 @@
+body
+{
+	background: linear-gradient(to right, #222831, #393E46);
+}
+.head1 p
+{
+	color: white;
+	background: #00ADB5;
+	text-align: center;
+	font-family: cooper black;
+	font-size: 30px;
+	width: 98%;
+	padding: 15px;
+	margin-top: -30px;
+}
+ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	margin-top: -30px;
+}
+li
+{
+	float: right;
+	position: relative;
+	color: #00ADB5;
+	text-align: center;
+	margin-top: 62px;
+	margin-left: -50px;
+	text-decoration: none;
+	font-family: georgia;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+li:after
+{
+	content: "";
+	position: absolute;
+	background-color: #00ADB5;
+	height: 5px;
+	width: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 30px;
+	transition: 0.3s;
+}
+li:hover:after
+{
+	width: 100%;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+}
+.education
+{
+	text-align: center;
+}
+.threecolumn
+{
+	width: 100%;
+}
+.column 
+{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 25px 0;
+}
+.experience p
+{
+	color: white;
+	font-size: 20px;
+	background: none;
+	font-family: tahoma;
+	padding: 0;
+}
+.columnexp
+{
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 25px 0;
+}
+.exp p
+{
+	color: white;
+	font-size: 20px;
+	background: none;
+	font-family: tahoma;
+	padding: 0;
+}
+.gallery img 
+{
+	padding: 12px;
+	border: solid 3px #00ADB5;
+	margin: 10px auto;
+}
+.header
+{
+	font-family:informal roman;
+	color: #00ADB5;
+	font-size: 24px;
+	margin-right: 40px;
+	filter: drop-shadow(1px 2px);
+}
